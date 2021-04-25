@@ -1,0 +1,469 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+}
+nav{
+	background-color:#b4e3ff;
+	height: 4rem;
+	justify-content: center;
+}
+.cajauno{
+	background-color: #72fd72;
+	height:20rem;
+}
+.cajados{
+	background-color: #98ffff;
+	height:20rem;
+}
+.cajatres{
+	background-color: #8b8bff;
+	height:20rem;
+}
+.cajacuatro{
+	background-color: #ff73ff;
+	height:20rem;
+}
+.cajacinco{
+	background-color: #bb484c;
+	height:20rem;
+}
+.cajaseis{
+	background-color: #ca8a40;
+	height:20rem;
+}
+.cajasiete{
+	background-color: #7fa54e;
+	height:20rem;
+}
+.cajaocho{
+	background-color: #3b6786;
+	height:20rem;
+}
+.cajanueve{
+	background-color: #ff80bb;
+	height:20rem;
+}
+.cajadiez{
+	background-color: #c5f78c;
+	height:20rem;
+}
+.cajaonce{
+	background-color: #584f44;
+	height:20rem;
+}
+.cajadoce{
+	background-color: #b39b7f;
+	height:20rem;
+}
+.cajatrece{
+	background-color: #71a382;
+	height:20rem;
+}
+.cajacatorce{
+	background-color: #8cdef7;
+	height:20rem;
+}
+.cajaquince{
+	background-color: #37253b;
+	height:20rem;
+}
+.cajadieciseis{
+	background-color: #b37f7f;
+	height:20rem;
+}
+.cajadiecisiete{
+	background-color: #a9b97e;
+	height:20rem;
+}
+.cajadieciocho{
+	background-color: #7f748f;
+	height:20rem;
+}
+.cajadiecinueve{
+	background-color: #b46c42;
+	height:20rem;
+}
+.cajaveinte{
+	background-color: #df3d3d;
+	height:20rem;
+}
+.cajaveintiuno{
+	background-color: #413d77;
+	height:20rem;
+}
+.cajaveintidos{
+	background-color: #813a4b;
+	height:20rem;
+}
+.cajaveintitres{
+	background-color: #94fdb7;
+	height:20rem;
+}
+.cajaveinticuatro{
+	background-color: #b85583;
+	height:20rem;
+}
+.cajaveinticinco{
+	background-color: #773d5f;
+	height:20rem;
+}
+.cajaveintiseis{
+	background-color: #3a8160;
+	height:20rem;
+}
+.cajaveintisiete{
+	background-color: #eafd94;
+	height:20rem;
+}
+.cajaveintiocho{
+	background-color: #5574b8;
+	height:20rem;
+}
+.cajaveintinueve{
+	background-color: #513d77;
+	height:20rem;
+}
+.cajatreinta{
+	background-color: #4c1b68;
+	height:20rem;
+}
+.cajatreintaiuno{
+	background-color: #ab94fd;
+	height:20rem;
+}
+.cajatreintaidos{
+	background-color: #b86c55;
+	height:20rem;
+}
+.cajatreintaitres{
+	background-color: #223b42;
+	height:20rem;
+}
+.cajatreintaicuatro{
+	background-color: #583117;
+	height:20rem;
+}
+.cajatreintaicinco{
+	background-color: #3d2596;
+	height:20rem;
+}
+.cajatreintaiseis{
+	background-color: #ffb49d;
+	height:20rem;
+}
+.cajatreintaisiete{
+	background-color: #ff9955;
+	height:20rem;
+}
+.cajatreintaiocho{
+	background-color: #663bff;
+	height:20rem;
+}
+.cajatreintainueve{
+	background-color: #ff7146;
+	height:20rem;
+}
+.cajacuarenta{
+	background-color: #71ff46;
+	height:20rem;
+}
+div.cajauno:hover{
+	background-color: rgb(114, 85, 85);
+}
+div.cajados a:active{
+	color:coral;
+}
+div.cajatres 
+select{
+	margin: 8px;
+}
+
+	/* Etiquetas para entradas marcadas */
+	input:checked + label {
+	color: red;
+  }
+  
+  /* Elemento Radio, cuando está marcado */
+  input[type="radio"]:checked {
+	box-shadow: 0 0 0 3px orange;
+  }
+  
+  /* Elemento Checkbox, cuando está marcado */
+  input[type="checkbox"]:checked {
+	box-shadow: 0 0 0 3px hotpink;
+  }
+  
+  /* Elementos Option, cuando se seleccionan */
+  option:checked {
+	box-shadow: 0 0 0 3px lime;
+	color: red;
+  }	
+	
+input:default {
+	box-shadow: 0 0 2px 1px;
+	color: rgb(255, 206, 188);
+	}
+input:default + label {
+	color: rgb(255, 206, 188);
+}
+input[type="text"]:disabled {
+	background: #ccc;
+}
+.box {
+	background: rgb(231, 229, 106);
+	height: 80px;
+	width: 80px;
+  }
+.box:empty {
+	background: rgb(128, 255, 128);
+}
+input:enabled {
+	color: #2b2;
+  }
+  
+input:disabled {
+	color: #aaa;
+}
+@page :first {
+	margin-left: 50%;
+	margin-top: 50%;
+}
+  
+p {
+	page-break-after: always;
+}
+p:first-child {
+	color: lime;
+	background-color: black;
+	padding: 5px;
+}
+article :first-of-type {
+	background-color: rgb(235, 106, 127);
+}
+#fullscreen:fullscreen {
+	padding: 42px;
+	background-color: pink;
+	border:2px solid #f00;
+	font-size: 200%;
+}
+  
+#fullscreen:fullscreen > h1 {
+	color: red;
+}
+  
+#fullscreen:fullscreen > p {
+	color: darkred;
+}
+  
+#fullscreen:fullscreen > button {
+	display: none;
+}
+.red-input:focus {
+	background: yellow;
+	color: rgb(17, 0, 255);
+  }
+  
+.blue-input:focus {
+	background: yellow;
+	color: rgb(195, 0, 255);
+}
+input:indeterminate + label {
+	background: lime;
+}
+li {
+	list-style: none;
+	margin-bottom: 1em;
+}
+  
+input {
+	border: 1px solid black;
+}
+  
+input:in-range {
+	background-color: rgba(0, 255, 0, 0.25);
+}
+  
+input:out-of-range {
+	background-color: rgba(255, 0, 0, 0.25);
+	border: 2px solid red;
+}
+  
+input:in-range + label::after {
+	content: 'bien.';
+}
+  
+input:out-of-range + label::after {
+	content: 'fuera de rango!';
+}
+input:invalid {
+	background-color: #ffdddd;
+}  
+input:valid {
+	background-color: #ddffdd;
+}
+
+input:required {
+	border-color: #800000;
+	border-width: 3px;
+}
+  
+input:required:invalid {
+	border-color: #C00000;
+}
+
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(fr) > q { quotes: '« ' ' »'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+
+.p2:last-child {
+	color: lime;
+	background-color: black;
+	padding: 5px;
+}
+.article2 :last-of-type {
+	background-color: pink;
+}
+@page :left {
+	margin: 2in 3in;
+}
+.a21:link {
+	background-color: gold;
+	color: green;
+}
+.fancy{
+	text-shadow: 2px 2px 3px orange;
+}
+.fancy1:not(.fancy){
+	color:rgba(0, 255, 0, 0.25)
+}
+.cajaveintitres {
+	font-family: sans-serif;
+  }
+  
+ .span2,
+  div em {
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 3px;
+  }
+  
+  .first span:nth-child(2n+1),
+  .second span:nth-child(2n+1),
+  .third span:nth-of-type(2n+1) {
+	background-color: lime;
+  }
+  table {
+	border: 1px solid blue;
+  }
+  
+  /* Selecciona los últimos tres elementos */
+  tr:nth-last-child(-n+3) {
+	background-color: pink;
+  }
+  
+  /* Toma todos los elementos a partir del penúltimo elemento */
+  tr:nth-last-child(n+2) {
+	color: blue;
+  }
+  
+  /* Seleccione solo el penúltimo elemento */
+  tr:nth-last-child(2) {
+	font-weight: 600;
+  }
+.span25:nth-last-of-type(2) {
+	background-color: lime;
+}
+/* Párrafos impares */
+.p26:nth-of-type(2n+1) {
+	color: red;
+}
+  
+  /* Párrafos pares */
+.p26:nth-of-type(2n) {
+	color: blue;
+}
+  
+  /* Primer párrafo */
+.p26:nth-of-type(1) {
+	font-weight: bold;
+}
+main :only-child {
+	color: red;
+}
+.main28 :only-of-type {
+	color: red;
+}
+li {
+	list-style: none;
+	margin-bottom: 1em;
+  }
+  
+  input {
+	border: 1px solid black;
+  }
+  
+  input:in-range {
+	background-color: rgba(0, 255, 0, 0.25);
+  }
+  
+  input:out-of-range {
+	background-color: rgba(255, 0, 0, 0.25);
+	border: 2px solid red;
+  }
+  
+  input:in-range + label::after {
+	content: 'bien.';
+  }
+  
+  input:out-of-range + label::after {
+	content: '¡fuera de rango!';
+}
+.input31 { min-width: 25em; }
+.input31:-moz-read-only { background: cyan; }
+.input31:read-only { background: cyan; }
+
+.p31:-moz-read-only { background: lightgray; }
+.p31:read-only { background: lightgray; }
+.p31[contenteditable="true"] { color: blue; }
+
+.input32 { min-width: 25em; }
+.input32:-moz-read-write { background: cyan; }
+.input32:read-write { background: cyan; }
+
+.p32:-moz-read-write { background: lightgray; }
+.p32:read-write { background: lightgray; }
+.p32[contenteditable="true"] { color: blue; }
+
+@page :right {
+	margin: 2in 3in;
+}
+.p37:target {
+	background-color: gold;
+  }
+  
+  /* Agrega un pseudo-elemento dentro del elemento de destino */
+  .p37:target::before {
+	font: 70% sans-serif;
+	content: "►";
+	color: limegreen;
+	margin-right: .25em;
+  }
+  
+  /* Estilo de elementos en cursiva dentro del elemento de destino */
+  .p37:target i {
+	color: red;
+  }
+  .a39 {
+	/* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+	   lo que les permite ser diseñado con el estado :visited */
+	background-color: white;
+	border: 1px solid white;
+  }
+  
+  .a39 :visited {
+	background-color: yellow;
+	border-color: hotpink;
+	color: hotpink;
+  }
